@@ -25,6 +25,9 @@ System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\
 	      
 	      for (int i = 1; i<=links.size(); i = i+1) {
 	         System.out.println("Name of Link# " + i + links.get(i).getText());
+	         Thread.sleep(2000);
+	         
+	         driver.close();
 	      }
 		
 	}
