@@ -5,7 +5,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-
 public class TcHomeDepot extends Base{
 	
 
@@ -18,8 +17,6 @@ public class TcHomeDepot extends Base{
 		  
 		  }
 
-	
-	
 	@Test      
 
 	      public void t_case_01_Register() throws InterruptedException {
@@ -29,6 +26,7 @@ public class TcHomeDepot extends Base{
 		reg.setPassWord("MyPassword1#");
 		reg.PhoneNum("720.720.7777");
 		reg.setzipCode("80231");
+		
 		Thread.sleep(2000);
 	    
 	     }
