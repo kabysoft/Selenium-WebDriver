@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-30T00:47:14 MDT" name="Default suite" finished-at="2022-08-30T00:47:29 MDT" duration-ms="15093">
+    <groups>
+    </groups>
+    <test started-at="2022-08-30T00:47:14 MDT" name="Default test" finished-at="2022-08-30T00:47:29 MDT" duration-ms="15093">
+      <class name="CalculatorInterest.PageTest">
+        <test-method is-config="true" signature="setUpPro()[pri:0, instance:CalculatorInterest.PageTest@54bff557]" started-at="2022-08-30T00:47:14 MDT" name="setUpPro" finished-at="2022-08-30T00:47:16 MDT" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPro -->
+        <test-method signature="t_case_01_txtBoxSp()[pri:0, instance:CalculatorInterest.PageTest@54bff557]" started-at="2022-08-30T00:47:16 MDT" name="t_case_01_txtBoxSp" finished-at="2022-08-30T00:47:24 MDT" duration-ms="7474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t_case_01_txtBoxSp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:CalculatorInterest.PageTest@54bff557]" started-at="2022-08-30T00:47:24 MDT" name="TearDown" finished-at="2022-08-30T00:47:29 MDT" duration-ms="5213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- CalculatorInterest.PageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
