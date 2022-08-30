@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgTEst.TestNGClass">
+      <class name="firstPackage.demo_auto">
         <methods>
-          <include name="terminatetest"/>
           <include name="firstN"/>
-          <include name="calculatepercent"/>
         </methods>
-      </class> <!-- TestNgTEst.TestNGClass -->
+      </class> <!-- firstPackage.demo_auto -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

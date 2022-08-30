@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MathCalculatorPageFactory.TestCases">
+      <class name="SoftAssertion.LoginAutomation">
         <methods>
-          <include name="SetProperty"/>
-          <include name="t_case_02_titleT"/>
-          <include name="tearDown"/>
+          <include name="loginFals"/>
         </methods>
-      </class> <!-- MathCalculatorPageFactory.TestCases -->
+      </class> <!-- SoftAssertion.LoginAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
