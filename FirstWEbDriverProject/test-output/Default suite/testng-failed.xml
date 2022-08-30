@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM.TcHomeDepot">
+      <class name="TestNgTEst.TestNGClass">
         <methods>
-          <include name="t_case_01_Register"/>
-          <include name="TearDown"/>
-          <include name="setUpPro"/>
+          <include name="terminatetest"/>
+          <include name="firstN"/>
+          <include name="calculatepercent"/>
         </methods>
-      </class> <!-- POM.TcHomeDepot -->
+      </class> <!-- TestNgTEst.TestNGClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

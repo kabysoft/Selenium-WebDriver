@@ -27,38 +27,20 @@ public class MyFirstClass {
 		driver.manage().deleteAllCookies();
 		driver.get("https:www.google.com");
 		
-		//WebElement element = driver.findElement(By.cssSelector("lnXdpd"));
-		
-		//Javascript js = (Javascript)driver;
-		
-		//WebElement luckyBtn = driver.findElement(By.name("btnI"));
-		//WebElement link = driver.findElement(By.linkText("store"));
-		//link.click();
-		
+
 		
 		driver.navigate().to("https://www.yahoo.fr/");
-		//driver.get("https://www.yahoo.fr/");
+	
 		
 		
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		
-		//WebElement element = driver.findElement(By.cssSelector(".lnXdpd"));
-		//File srcFile1 = ((TakesScreenshot)element).getScreenshotAs(OutputType.FILE);
-		//Files.copy(srcFile1, new File("./yahoo.png"));
+		
 		Thread.sleep(2000);
 		driver.navigate().back();
-		//driver.close();
-		//driver.quit();
 		
-		//File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(srcFile, new File("./saptarshi.png"));
-        //Files.copy(srcFile,  new File ("./image.png"));
 		
-		WebElement element1 = driver.findElement(By.cssSelector(".lnXdpd"));
-		File srcFile3 = ((TakesScreenshot)element1).getScreenshotAs(OutputType.FILE);
-		Files.copy(srcFile, new File("./logo.png"));
 	}
 }
 

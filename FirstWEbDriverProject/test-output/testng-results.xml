@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T13:53:59 MDT" name="Default suite" finished-at="2022-08-29T13:54:06 MDT" duration-ms="6834">
+  <suite started-at="2022-08-29T21:35:02 MDT" name="Default suite" finished-at="2022-08-29T21:35:19 MDT" duration-ms="16563">
     <groups>
     </groups>
-    <test started-at="2022-08-29T13:53:59 MDT" name="Default test" finished-at="2022-08-29T13:54:06 MDT" duration-ms="6834">
-      <class name="Exception_Handling.ExceptionHandling">
-        <test-method signature="firstN()[pri:0, instance:Exception_Handling.ExceptionHandling@7a419da4]" started-at="2022-08-29T13:53:59 MDT" name="firstN" finished-at="2022-08-29T13:54:06 MDT" duration-ms="6800" status="PASS">
+    <test started-at="2022-08-29T21:35:02 MDT" name="Default test" finished-at="2022-08-29T21:35:19 MDT" duration-ms="16563">
+      <class name="firstPackage.demo_auto">
+        <test-method signature="firstN()[pri:0, instance:firstPackage.demo_auto@7a419da4]" started-at="2022-08-29T21:35:02 MDT" name="firstN" finished-at="2022-08-29T21:35:19 MDT" duration-ms="16531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstN -->
-      </class> <!-- Exception_Handling.ExceptionHandling -->
+      </class> <!-- firstPackage.demo_auto -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
