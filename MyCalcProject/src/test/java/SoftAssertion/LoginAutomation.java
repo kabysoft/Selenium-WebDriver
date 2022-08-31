@@ -18,7 +18,10 @@ public class selenium3 {
 	WebDriver driver;
 	SoftAssert SoftA = new SoftAssert();
 	@Test
+	//Positive LogIn test 
 		public void login() throws InterruptedException {
+		
+		
 			
 	    System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\chromedriver_win32 (1)/chromedriver.exe");
 		
@@ -48,6 +51,7 @@ public class selenium3 {
 		}
 	
 	@Test
+	//Negative LogIn test 
 	public void loginFals() throws InterruptedException {
 		
 	    System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\chromedriver_win32 (1)/chromedriver.exe");

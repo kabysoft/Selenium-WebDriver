@@ -16,21 +16,21 @@ WebDriver driver;
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		//driver.get("https:www.google.com");
+		driver.get("https:www.google.com");
 		
 		
-//		
-//		driver.switchTo().newWindow(WindowType.TAB);
-//		// Opens LambdaTest homepage in the newly opened tab
-//		driver.navigate().to("https://www.lambdatest.com/");
+		
+	  driver.switchTo().newWindow(WindowType.TAB);
+	 //Opens LambdaTest homepage in the newly opened tab
+	  driver.navigate().to("https://www.lambdatest.com/");
 		
 		
 		
 		//driver.get("https://www.google.com/");
 		// Opens a new window and switches to new window
-		driver.switchTo().newWindow(WindowType.WINDOW);
+		//driver.switchTo().newWindow(WindowType.WINDOW);
 		// Opens LambdaTest homepage in the newly opened window
-		driver.navigate().to("https://www.lambdatest.com/");
+		//driver.navigate().to("https://www.lambdatest.com/");
 		
 	}
 

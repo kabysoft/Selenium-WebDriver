@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-30T01:52:29 MDT" name="Default suite" finished-at="2022-08-30T01:52:49 MDT" duration-ms="20201">
+  <suite started-at="2022-08-30T14:47:26 MDT" name="Default suite" finished-at="2022-08-30T14:48:02 MDT" duration-ms="35326">
     <groups>
     </groups>
-    <test started-at="2022-08-30T01:52:29 MDT" name="Default test" finished-at="2022-08-30T01:52:49 MDT" duration-ms="20201">
-      <class name="SoftAssertion.LoginAutomation$selenium3">
-        <test-method signature="login()[pri:0, instance:SoftAssertion.LoginAutomation$selenium3@4803b726]" started-at="2022-08-30T01:52:37 MDT" name="login" finished-at="2022-08-30T01:52:49 MDT" duration-ms="11713" status="PASS">
+    <test started-at="2022-08-30T14:47:26 MDT" name="Default test" finished-at="2022-08-30T14:48:02 MDT" duration-ms="35326">
+      <class name="MathCalculatorPageFactory.TestCases">
+        <test-method is-config="true" signature="SetProperty()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:27 MDT" name="SetProperty" finished-at="2022-08-30T14:47:29 MDT" duration-ms="2894" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- SoftAssertion.LoginAutomation$selenium3 -->
-      <class name="SoftAssertion.LoginAutomation">
-        <test-method signature="loginFals()[pri:0, instance:SoftAssertion.LoginAutomation@306e95ec]" started-at="2022-08-30T01:52:29 MDT" name="loginFals" finished-at="2022-08-30T01:52:37 MDT" duration-ms="8455" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://www.browserstack.com/user/choose-intent] but found [https://www.browserstack.com/users/sign_in]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://www.browserstack.com/user/choose-intent] but found [https://www.browserstack.com/users/sign_in]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at SoftAssertion.LoginAutomation.loginFals(LoginAutomation.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- SetProperty -->
+        <test-method signature="t_case_01_LogoT()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:29 MDT" name="t_case_01_LogoT" finished-at="2022-08-30T14:47:29 MDT" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFals -->
-      </class> <!-- SoftAssertion.LoginAutomation -->
+        </test-method> <!-- t_case_01_LogoT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:30 MDT" name="tearDown" finished-at="2022-08-30T14:47:33 MDT" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetProperty()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:33 MDT" name="SetProperty" finished-at="2022-08-30T14:47:35 MDT" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetProperty -->
+        <test-method signature="t_case_02_setFunction()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:35 MDT" name="t_case_02_setFunction" finished-at="2022-08-30T14:47:50 MDT" duration-ms="14863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t_case_02_setFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:50 MDT" name="tearDown" finished-at="2022-08-30T14:47:57 MDT" duration-ms="7124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetProperty()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:57 MDT" name="SetProperty" finished-at="2022-08-30T14:47:59 MDT" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetProperty -->
+        <test-method signature="t_case_02_titleT()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:59 MDT" name="t_case_02_titleT" finished-at="2022-08-30T14:47:59 MDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t_case_02_titleT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MathCalculatorPageFactory.TestCases@5a56cdac]" started-at="2022-08-30T14:47:59 MDT" name="tearDown" finished-at="2022-08-30T14:48:02 MDT" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MathCalculatorPageFactory.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

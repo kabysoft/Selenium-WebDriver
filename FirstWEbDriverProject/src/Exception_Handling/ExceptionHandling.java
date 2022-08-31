@@ -32,7 +32,7 @@ System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\
 		try {	
 			
 	
-		WebElement FirstName =driver.findElement(By.xpath("//input[@placeho0lder='First Name']"));
+		WebElement FirstName =driver.findElement(By.xpath("//input[@placeholder='First Name']"));
 		
 		
 		FirstName.sendKeys("SALAH");

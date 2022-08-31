@@ -27,8 +27,9 @@ public class TestCases extends BAse{
     public void t_case_02_titleT() throws InterruptedException {
     	PageObject title = new PageObject(driver);
 		title.testTitle();
+		System.out.println("Result expected for tiltle is  Math Calculators");
 		System.out.println(" Actual Title is  " + title.driver.getTitle());
-		Assert.assertEquals(title.driver.getTitle(),"Math Calculators");
+		Assert.assertEquals(title.testTitle(),"Math Calculators");
     }
     
     @Test

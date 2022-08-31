@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Interaction.AllLinks">
+      <class name="Exception_Handling.ExceptionHandling">
         <methods>
-          <include name="FindLinks"/>
-          <include name="FindLinksOpen"/>
+          <include name="firstN"/>
         </methods>
-      </class> <!-- Interaction.AllLinks -->
+      </class> <!-- Exception_Handling.ExceptionHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

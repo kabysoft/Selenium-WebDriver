@@ -11,6 +11,7 @@ public class demo_auto {
 
 	WebDriver driver;
 	@Test
+	
 	public  void firstN() throws InterruptedException {
 	
 System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\chromedriver_win32 (1)/chromedriver.exe");

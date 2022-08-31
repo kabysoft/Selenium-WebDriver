@@ -32,7 +32,7 @@ System.setProperty("webdriver.chrome.driver", "F:\\Software Download\\Selenium\\
 	         System.out.println("Name of Link# " + i + links1.get(i).getText());
 	         Thread.sleep(2000);
 	         
-	         //driver.close();
+	         driver.close();
 	      }
 		
 	}

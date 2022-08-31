@@ -23,7 +23,7 @@ public class selenium3 {
 		driver.manage().window().maximize();
 		driver.get("https://www.browserstack.com/users/sign_in");
 		
-		WebElement username=driver.findElement(By.xpath("//input[@id='user_email_login']"));
+		WebElement username=driver.findElement(By.id("//input[@id='user_email_login']"));
 		WebElement password=driver.findElement(By.xpath("//input[@id='user_password']"));
 		WebElement login=driver.findElement(By.xpath("//input[@id='user_submit']"));
 		username.sendKeys("boutemeursalah2018@gmail.com");

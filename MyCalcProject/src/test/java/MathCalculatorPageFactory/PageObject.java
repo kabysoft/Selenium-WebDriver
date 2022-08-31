@@ -22,55 +22,54 @@ WebDriver driver;
 	WebElement logoTest;
 	
 	
-	@FindBy (how = How.XPATH, using = "/html/body/div[3]/div/table/tbody/tr/td[1]/table/tbody/tr[1]/td/div/div[2]")
-	WebElement CurrentValue;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[4]/span[1]")  
+	
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='0']")  
 	WebElement n0;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[3]/span[1]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='1']")
 	WebElement n1;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[3]/span[2]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='2']")
 	WebElement n2;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[3]/span[3]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='3']")
 	WebElement n3;
 	
-	 @FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[2]/span[1]")
+	 @FindBy (how = How.XPATH, using ="//span[normalize-space()='4']")
 	 WebElement n4;
 	 
-	 @FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[2]/span[2]")
+	 @FindBy (how = How.XPATH, using ="//span[normalize-space()='5']")
 	WebElement n5;
 	 
-	 @FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[2]/span[3]")
+	 @FindBy (how = How.XPATH, using ="//span[normalize-space()='6']")
 	 WebElement n6;
 	 
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[1]/span[1]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='7']")
 	WebElement n7;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[1]/span[2]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='8']")
 	WebElement n8;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[1]/span[3]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='9']")
 	WebElement n9;
 	
-	@FindBy (how = How.XPATH, using ="/html/body/div[3]/div[1]/table[1]/tbody/tr/td/div[2]/div[3]/span[4]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='×']")
 	WebElement OpM;
 	
 	
-	@FindBy (how = How.XPATH, using ="/html/body/div[3]/div[1]/table[1]/tbody/tr/td/div[2]/div[4]/span[4]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='÷']")
 	WebElement OpD;
 	
-	@FindBy (how = How.XPATH, using ="//*[@id=\"sciout\"]/div[2]/div[2]/span[4]")
+	@FindBy (how = How.XPATH, using ="//span[contains(text(),'–')]")
 	WebElement OpS;
 	
-	@FindBy (how = How.XPATH, using ="/html/body/div[3]/div[1]/table[1]/tbody/tr/td/div[2]/div[1]/span[4]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='+']")
 	WebElement OpP;
 	
 
 	
-	@FindBy (how = How.XPATH, using ="/html/body/div[3]/div[1]/table[1]/tbody/tr/td/div[2]/div[5]/span[3]")
+	@FindBy (how = How.XPATH, using ="//span[normalize-space()='AC']")
 	WebElement ClearBtn;
 	
 	@FindBy (how = How.XPATH, using= "//*[@id=\"sciOutPut\"]")
@@ -86,10 +85,10 @@ WebDriver driver;
 		return logoTest.isDisplayed();
 		}
 	
-	public  void testTitle() {
+	public  String testTitle() {
 		String title = driver.getTitle();
-		System.out.println(title);
 		//Assert.assertEquals(title,"Math Calculators");
+		return title;
 	    }
 	
 	public void SetFunctionTest() throws InterruptedException {
